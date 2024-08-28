@@ -1,0 +1,75 @@
+.container {
+    background-color: gray;
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+  }
+  .contain .box {
+    /* margin: 10px; */
+    width: 100%;
+    height: 500px;
+    transition: calc();
+  }
+  .contain {
+    display: flex;
+  }
+  .box {
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    /* margin: 10px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .btn {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+  }
+  .btn {
+    background-color: rgba(238, 46, 255, 0.8);
+    padding: 10px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+  }
+  .btn-back {
+    left: 0;
+  }
+  .btn-next {
+    right: 0;
+  }
+  .pageSlide {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    /* background-color: rgb(0, 0, 0,0.9); */
+  }
+  .pageSlide ul {
+    list-style-type: none;
+    float: left;
+  }
+  .pageSlide li {
+    text-align: center;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    font-size: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .addclass {
+    background-color: red !important;
+    color: white;
+  }
+  .hi {
+    background-color: rgb(238, 46, 255, 0.8) !important;
+    color: white;
+  }
